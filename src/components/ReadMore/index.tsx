@@ -5,23 +5,23 @@ const ReadMore: React.FC = () => {
   const articles = [
     {
       title: 'Benefícios da Psicoterapia para Tratamento da Depressão',
-      imageUrl: 'public/flex-ui-assets/images/blog/effect.jpg',
+      imageUrl: '/assets/blog/effect.jpg',
       link: '#',
     },
     {
       title: 'Como a terapia pode ajudar a lidar com estresse do trabalho',
-      imageUrl: 'public/flex-ui-assets/images/blog/work2.jpg',
+      imageUrl: '/assets/blog/work2.jpg',
       link: 'https://www.institutocerebro.com.br/noticia/como-a-terapia-pode-ajudar-a-lidar-com-estresse-do-trabalho',
     },
     {
       title: 'O Papel da Psicoterapia na Gestão de Ansiedade',
-      imageUrl: 'public/flex-ui-assets/images/blog/effect2.jpg',
+      imageUrl: '/assets/blog/effect2.jpg',
       link: '#',
     },
     {
       title:
         'Psicoterapia: Como a Psicologia pode te ajudar a ter relacionamentos melhores e mais duradouros?',
-      imageUrl: 'public/flex-ui-assets/images/blog/relacionamento.jpeg',
+      imageUrl: 'public/assets/blog/relacionamento-transformed.jpeg',
       link: 'https://www.acidamente.com.br/relacionamentos-melhores-e-duradouros/#:~:text=A%20terapia%20pode%20ajudar%20a,construir%20relacionamentos%20saud%C3%A1veis%20e%20significativos.',
     },
   ];

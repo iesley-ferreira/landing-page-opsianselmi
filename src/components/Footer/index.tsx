@@ -16,11 +16,7 @@ const Footer: React.FC = () => {
         <div className="container px-4 mx-auto">
           <div className="py-11 mx-auto max-w-6xl">
             <a className="flex flex-row mx-auto mb-5 max-w-max" href="#">
-              <img
-                className="h-16"
-                src="public/flex-ui-assets/logos/brain-logo.svg"
-                alt="Logo"
-              />
+              <img className="h-16" src="/assets/logo/brain-logo.svg" alt="Logo" />
               <span className="ml-4 text-3xl font-bold text-slate-100">
                 Terapia Clínica
               </span>
