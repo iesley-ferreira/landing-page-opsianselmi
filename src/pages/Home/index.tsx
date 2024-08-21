@@ -12,8 +12,8 @@ const Home: React.FC = () => {
     <main className="w-full min-w-screen">
       <Intro />
       <About />
-      <Testimonials />
       <HowItWorks />
+      <Testimonials />
       <WhyGoToTherapy />
       <Faq />
       <ReadMore />

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,13 +8,20 @@ const Header: React.FC = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative bg-white overflow-hidden">
       <div className="bg-coolGray-900">
         <nav className="flex p-6 px-4 md:px-32">
           <div className="flex  items-center w-full">
             <div className="w-full xl:w-3/12">
-              <a className="flex flex-row w-full" href="#">
+              <Link className="flex flex-row w-full" to="/">
                 <img
                   className="h-12 md:h-16"
                   src="/assets/logo/brain-logo.svg"
@@ -22,57 +30,54 @@ const Header: React.FC = () => {
                 <span className="ml-4 text-3xl w-full font-bold text-slate-100">
                   Terapia Clínica
                 </span>
-              </a>
+              </Link>
             </div>
             <div className="w-fit hidden xl:block">
               <ul className="hidden xl:flex xl:justify-center">
                 <li className="mr-12">
-                  <a
+                  <Link
                     className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                    href="#"
+                    to="/"
+                    onClick={() => scrollToSection('sobre')}
                   >
                     Sobre
-                  </a>
+                  </Link>
                 </li>
                 <li className="mr-12">
-                  <a
+                  <Link
                     className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                    href="#"
+                    to="/"
+                    onClick={() => scrollToSection('como-funciona')}
                   >
-                    Funcionamento
-                  </a>
+                    Como Funciona
+                  </Link>
                 </li>
                 <li className="mr-12">
-                  <a
+                  <Link
                     className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                    href="#"
-                  >
-                    Terapia Online
-                  </a>
-                </li>
-                <li className="mr-12">
-                  <a
-                    className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                    href="#"
+                    to="/"
+                    onClick={() => scrollToSection('depoimentos')}
                   >
                     Depoimentos
-                  </a>
+                  </Link>
                 </li>
                 <li className="mr-12">
-                  <a
+                  <Link
                     className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                    href="#"
+                    to="/"
+                    onClick={() => scrollToSection('faq')}
                   >
                     FAQ
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-coolGray-400 hover:text-coolGray-50 font-medium"
-                    href="#"
+                    to="/"
+                    onClick={() => scrollToSection('porque-fazer-terapia')}
                   >
                     Porque Fazer Terapia
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -80,7 +85,7 @@ const Header: React.FC = () => {
               <div className="hidden xl:flex items-center justify-end">
                 <a
                   className="flex items-center py-3 px-4  leading-5 text-blue-50 bg-blue-500 hover:bg-blue-600 rounded-md"
-                  href="#"
+                  href="https://wa.me/message/L4U4DUY7R4VQF1"
                 >
                   <i className="ri-whatsapp-line text-2xl pr-2 md:pr-3"></i>
                   <span className=" text-sm font-medium">Marcar uma consulta</span>
@@ -112,69 +117,79 @@ const Header: React.FC = () => {
           </button>
         </nav>
         <div
-          className={`navbar-menu fixed top-0 left-0 z-50 w-full h-full bg-coolGray-900 bg-opacity-50 ${
+          className={`navbar-menu fixed top-0 left-0 z-50 w-full h-full bg-coolGray-400 bg-opacity-50 ${
             isMenuOpen ? 'block' : 'hidden'
           }`}
         >
           <div className="fixed top-0 left-0 bottom-0 w-full w-4/6 max-w-xs bg-coolGray-900">
             <nav className="relative p-6 h-full overflow-y-auto">
               <div className="flex flex-col justify-between h-full">
-                <a className="inline-block" href="#">
-                  <img
-                    className="h-8"
-                    src="flex-ui-assets/logos/flex-ui-blue.svg"
-                    alt="Logo"
-                  />
-                </a>
+                <div className="flex flex-row w-full">
+                  <img className="h-8" src="/assets/logo/brain-logo.svg" alt="Logo" />
+                  <span className="ml-4 text-2xl w-full font-bold text-slate-100">
+                    Terapia Clínica
+                  </span>
+                </div>
                 <ul className="py-6">
                   <li>
-                    <a
+                    <Link
                       className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                      href="#"
+                      to="/"
+                      onClick={() => scrollToSection('sobre')}
                     >
                       Sobre
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                      href="#"
+                      to="/"
+                      onClick={() => scrollToSection('como-funciona')}
                     >
-                      Funcionamento
-                    </a>
+                      Como Funciona
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                      href="#"
-                    >
-                      Terapia Online
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
-                      href="#"
+                      to="/"
+                      onClick={() => scrollToSection('depoimentos')}
                     >
                       Depoimentos
-                    </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
+                      to="/"
+                      onClick={() => scrollToSection('faq')}
+                    >
+                      FAQ
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="block py-3 px-4 text-coolGray-400 hover:text-white font-medium hover:bg-coolGray-800 rounded-md"
+                      to="/"
+                      onClick={() => scrollToSection('porque-fazer-terapia')}
+                    >
+                      Porque Fazer Terapia
+                    </Link>
                   </li>
                 </ul>
                 <div className="flex flex-wrap">
                   <div className="w-full mb-2">
-                    <a
-                      className="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-400 hover:text-white bg-transparent font-medium text-center rounded-md"
-                      href="#"
-                    >
-                      FAQ
-                    </a>
+                    <div className="inline-block py-2 px-4 w-full text-sm leading-5 text-coolGray-400 hover:text-white bg-transparent font-medium text-center rounded-md">
+                      Comece sua terapia agora!
+                    </div>
                   </div>
-                  <div className="w-full">
+                  <div className="flex items-center w-full">
                     <a
-                      className="inline-block py-2 px-4 w-full text-sm leading-5 text-white bg-blue-500 hover:bg-blue-600 font-medium text-center focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-md"
-                      href="#"
+                      className="flex items-center justify-center py-2 px-4 w-full text-sm leading-5 text-white bg-blue-500 hover:bg-blue-600 font-medium text-center focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-md"
+                      href="https://wa.me/message/L4U4DUY7R4VQF1"
                     >
-                      Porque Fazer Terapia
+                      <i className="ri-whatsapp-line text-2xl pr-2 md:pr-3"></i>
+                      Marcar consulta
                     </a>
                   </div>
                 </div>

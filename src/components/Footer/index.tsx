@@ -66,7 +66,10 @@ const Footer: React.FC = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="w-full md:w-1/3 px-4 mb-12 md:mb-0">
+                  <a
+                    href="https://wa.me/message/L4U4DUY7R4VQF1"
+                    className="w-full md:w-1/3 px-4 mb-12 md:mb-0"
+                  >
                     <div className="max-w-xs mx-auto text-center">
                       <div className="inline-flex mb-6 items-center justify-center w-14 h-14 bg-blue-500 rounded-full">
                         <svg
@@ -88,7 +91,7 @@ const Footer: React.FC = () => {
                       </h3>
                       <p className="text-2xl  text-blue-500 font-medium">53 99905-7182</p>
                     </div>
-                  </div>
+                  </a>
                   <div className="w-full md:w-1/3 px-4">
                     <div className="max-w-xs mx-auto text-center">
                       <div className="inline-flex mb-6 items-center justify-center w-14 h-14 bg-blue-500 rounded-full">

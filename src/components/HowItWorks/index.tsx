@@ -1,6 +1,7 @@
 export default function HowItWorks() {
   return (
     <section
+      id="como-funciona"
       className="py-24 bg-white overflow-hidden"
       style={{
         backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',

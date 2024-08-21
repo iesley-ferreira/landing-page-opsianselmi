@@ -1,6 +1,7 @@
 export default function WhyGoToTherapy() {
   return (
     <section
+      id="porque-fazer-terapia"
       className="py-24 bg-white"
       style={{
         backgroundImage: 'url("flex-ui-assets/elements/pattern-white.svg")',

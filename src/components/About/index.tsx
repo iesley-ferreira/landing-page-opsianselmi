@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section className="overflow-hidden">
+    <section id="sobre" className="overflow-hidden">
       <div
         className="relative bg-white overflow-hidden"
         style={{
@@ -137,7 +137,7 @@ const About: React.FC = () => {
                 <div className="w-full md:w-auto py-1 md:py-0 md:mr-4">
                   <a
                     className="inline-block py-5 px-7 w-full text-base md:text-lg leading-4 text-blue-50 font-medium text-center bg-blue-500 hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 border border-blue-500 rounded-md shadow-sm"
-                    href="#"
+                    href="https://wa.me/message/L4U4DUY7R4VQF1"
                   >
                     Entrar em contato
                   </a>

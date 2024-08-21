@@ -8,6 +8,7 @@ const Faq: React.FC = () => {
     <>
       <WaveTopLeft />
       <section
+        id="faq"
         className="py-24 bg-coolGray-900"
         style={{
           backgroundImage: 'url("flex-ui-assets/elements/pattern-dark2.svg")',
@@ -68,7 +69,7 @@ const Faq: React.FC = () => {
               </p>
               <a
                 className="inline-flex items-center justify-center px-7 py-3 h-14 w-full md:w-auto mb-2 md:mb-0 md:mr-4 text-lg leading-7 text-blue-50 bg-blue-500 hover:bg-blue-600 font-medium focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 border border-transparent rounded-md shadow-sm"
-                href="#"
+                href="https://wa.me/message/L4U4DUY7R4VQF1"
               >
                 Entre em contato
               </a>

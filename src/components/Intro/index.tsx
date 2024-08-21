@@ -5,6 +5,7 @@ const Intro: React.FC = () => {
   return (
     <>
       <div
+        id="inicio"
         className="py-10 md:py-24 bg-coolGray-900"
         style={{
           backgroundImage: 'url("public/flex-ui-assets/elements/pattern-dark2.svg")',
@@ -35,7 +36,7 @@ const Intro: React.FC = () => {
                 <div className="w-fit md:w-auto py-1 md:py-0 md:mr-4">
                   <a
                     className="flex items-center py-5 px-7 w-full text-base md:text-lg leading-4 text-blue-50 font-medium text-center bg-blue-500 hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-md shadow-sm"
-                    href="#"
+                    href="https://wa.me/message/L4U4DUY7R4VQF1"
                   >
                     <i className="ri-whatsapp-line text-2xl pr-2 md:pr-3"></i>
                     Agendar consulta
