@@ -57,7 +57,7 @@ const Intro: React.FC = () => {
                 />
                 <img
                   className="relative rounded-7xl"
-                  src="public/assets/intro/intro.jpeg"
+                  src="/assets/intro/intro.jpeg"
                   alt="Imagem Principal"
                 />
               </div>
