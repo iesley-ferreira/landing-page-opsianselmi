@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "ignorePatterns": ["dist", ".eslintrc.cjs"],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": 0
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react-refresh"]
+}
