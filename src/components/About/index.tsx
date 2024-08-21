@@ -98,17 +98,17 @@ const About: React.FC = () => {
             <div className="relative mb-20 md:mb-0 mx-auto md:mr-0 max-w-max">
               <img
                 className="absolute z-20 -left-10 lg:-left-18 lg:-top-18 w-28 md:w-auto"
-                src="public/flex-ui-assets/elements/dots3-blue.svg"
+                src="/assets/elements/dots3-blue.svg"
                 alt="Decoração"
               />
               <img
                 className="absolute z-20 -right-5 -bottom-5 w-38 md:w-auto"
-                src="public/flex-ui-assets/elements/cta/circle3-yellow.svg"
+                src="/assets/elements/circle3-yellow.svg"
                 alt="Decoração"
               />
               <img
                 className="relative z-10 w-full md:w-5/6 mx-auto rounded-7xl"
-                src="public/flex-ui-assets/images/about/perfil.png"
+                src="/assets/about/perfil.png"
                 alt="doctor"
               />
             </div>

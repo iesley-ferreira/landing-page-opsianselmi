@@ -16,7 +16,7 @@ const Header: React.FC = () => {
               <a className="flex flex-row w-full" href="#">
                 <img
                   className="h-12 md:h-16"
-                  src="public/flex-ui-assets/logos/brain-logo.svg"
+                  src="/assets/logo/brain-logo.svg"
                   alt="Logo"
                 />
                 <span className="ml-4 text-3xl w-full font-bold text-slate-100">

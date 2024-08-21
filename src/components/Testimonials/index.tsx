@@ -10,37 +10,37 @@ const Testimonials: React.FC = () => {
     {
       name: 'O. A.',
       role: 'Estudante de Engenharia',
-      image: 'public/flex-ui-assets/images/testimonials/avatar1.png',
+      image: '/assets/testimonials/avatar8.png',
       text: 'A psicoterapia online foi a chave para conciliar minha rotina intensa de estudos com o cuidado da minha saúde mental. A flexibilidade das sessões me permitiu enfrentar a ansiedade e melhorar meu foco, transformando minha vida acadêmica.',
     },
     {
       name: 'L. A',
       role: 'Arquiteta',
-      image: 'public/flex-ui-assets/images/teams/avatar3.png',
+      image: '/assets/testimonials/avatar3.png',
       text: 'Com o estresse diário do trabalho, a terapia online me ajudou a encontrar um equilíbrio essencial. A conveniência de poder me conectar de qualquer lugar foi crucial para superar a ansiedade social e melhorar minha produtividade no escritório.',
     },
     {
       name: 'R. M.',
       role: 'Desenvolvedor de Software',
-      image: 'public/flex-ui-assets/images/teams/avatar2.png',
+      image: '/assets/testimonials/avatar2.png',
       text: 'A terapia online me proporcionou o suporte necessário para enfrentar os desafios do home office e da solidão. Consegui vencer a depressão e encontrar um equilíbrio entre minha vida profissional e pessoal, tudo isso no conforto do meu lar.',
     },
     {
       name: 'C. B.',
       role: 'Gerente de Projetos',
-      image: 'public/flex-ui-assets/images/teams/avatar4.png',
+      image: '/assets/testimonials/avatar4.png',
       text: 'Como gerente de projetos, lidar com pressões constantes fazia parte da rotina. A flexibilidade da terapia online foi essencial para tratar minha ansiedade e melhorar minha gestão de tempo, me tornando uma líder mais equilibrada e eficaz.',
     },
     {
       name: 'M. N.',
       role: 'Advogada',
-      image: 'public/flex-ui-assets/images/teams/avatar5.png',
+      image: '/assets/testimonials/avatar5.png',
       text: 'A psicoterapia online foi uma experiência transformadora. Enfrentei desafios no trabalho e na vida pessoal com mais clareza e confiança. A flexibilidade das sessões me permitiu integrar a terapia ao meu dia a dia de maneira fluida e eficaz.',
     },
     {
       name: 'S. R.',
       role: 'Professora',
-      image: 'public/flex-ui-assets/images/teams/avatar6.png',
+      image: 'public/assets/testimonials/avatar6.png',
       text: 'A abordagem acolhedora e profissional da terapia online foi fundamental para meu bem-estar. Consegui superar a depressão e melhorar minhas habilidades sociais, o que refletiu positivamente tanto na minha vida pessoal quanto no ambiente de trabalho.',
     },
   ];

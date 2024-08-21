@@ -47,17 +47,17 @@ const Intro: React.FC = () => {
               <div className="relative mx-auto md:mr-0 max-w-max">
                 <img
                   className="absolute z-10 -left-8 -top-8 w-28 md:w-auto text-yellow-400"
-                  src="public/flex-ui-assets/elements/circle3-violet.svg"
+                  src="/assets/elements/circle3-violet.svg"
                   alt="Decoração"
                 />
                 <img
                   className="absolute z-10 -right-7 -bottom-8 w-28 md:w-auto text-blue-500"
-                  src="public/flex-ui-assets/elements/dots2-red.svg"
+                  src="/assets/elements/dots2-red.svg"
                   alt="Decoração"
                 />
                 <img
                   className="relative rounded-7xl"
-                  src="public/flex-ui-assets/images/intro/intro.jpeg"
+                  src="public/assets/intro/intro.jpeg"
                   alt="Imagem Principal"
                 />
               </div>

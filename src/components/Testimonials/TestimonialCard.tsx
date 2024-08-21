@@ -25,12 +25,12 @@ const TestimonialCard: React.FC<TestimonialProps> = ({ name, role, image, text }
     <div className="relative pt-12 pb-6 sm:p-6">
       <img
         className="absolute top-0 left-0"
-        src="flex-ui-assets/elements/testimonials/quote-top-blue.svg"
+        src="/assets/testimonials/quote-top-blue.svg"
         alt="quote"
       />
       <img
         className="absolute bottom-0 right-0"
-        src="flex-ui-assets/elements/testimonials/quote-down-blue.svg"
+        src="/assets/testimonials/quote-down-blue.svg"
         alt="quote"
       />
       <div className="relative max-w-[1480px]">

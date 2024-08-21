@@ -24,10 +24,7 @@ export default function WhyGoToTherapy() {
           </div>
           <div className="w-full md:w-1/2 px-4">
             <div className="relative mx-auto md:mr-0 max-w-max overflow-hidden rounded-7xl">
-              <img
-                src="flex-ui-assets/images/how-it-works/placeholder-video.png"
-                alt="Video placeholder"
-              />
+              <img src="/assets/WhyGoToTherapy/bg-video3.jpg" alt="Video placeholder" />
               <video
                 className="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 min-h-full min-w-full max-w-none"
                 poster="flex-ui-assets/images/testimonials/video-frame.jpeg"
