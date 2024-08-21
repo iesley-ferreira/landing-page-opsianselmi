@@ -21,7 +21,7 @@ const ReadMore: React.FC = () => {
     {
       title:
         'Psicoterapia: Como a Psicologia pode te ajudar a ter relacionamentos melhores e mais duradouros?',
-      imageUrl: 'public/assets/blog/relacionamento-transformed.jpeg',
+      imageUrl: '/assets/blog/relacionamento-transformed.jpeg',
       link: 'https://www.acidamente.com.br/relacionamentos-melhores-e-duradouros/#:~:text=A%20terapia%20pode%20ajudar%20a,construir%20relacionamentos%20saud%C3%A1veis%20e%20significativos.',
     },
   ];
