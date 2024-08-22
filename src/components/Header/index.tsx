@@ -32,7 +32,7 @@ const Header: React.FC = () => {
                 </span>
               </Link>
             </div>
-            <div className="w-fit hidden xl:block">
+            <div className="w-fit hidden xl:block xl:w-6/12">
               <ul className="hidden xl:flex xl:justify-center">
                 <li className="mr-12">
                   <Link
@@ -81,7 +81,7 @@ const Header: React.FC = () => {
                 </li>
               </ul>
             </div>
-            <div className="w-fit hidden xl:block pl-32">
+            <div className="w-fit hidden xl:block pl-32 lg:pl-0 xl:w-3/12">
               <div className="hidden xl:flex items-center justify-end">
                 <a
                   className="flex items-center py-3 px-4  leading-5 text-blue-50 bg-blue-500 hover:bg-blue-600 rounded-md"
